@@ -5,6 +5,8 @@ url_inicial = url[:url_base];
 url_final = url[url_base + 1:];
 
 #encontrando valores com parametros
+busca = "moedaDestino"
+parametro_base = url_final.find("&")
 
 print(url_inicial)
 print(url_final)
